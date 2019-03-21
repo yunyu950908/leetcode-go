@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func dominantIndex(nums []int) int {
 	max, second, idx := 0, 0, 0
