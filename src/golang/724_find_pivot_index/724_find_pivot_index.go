@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package leetcode
 
 func pivotIndex(nums []int) int {
 	sum, leftSum := 0, 0
@@ -14,9 +12,4 @@ func pivotIndex(nums []int) int {
 		leftSum += v
 	}
 	return -1
-}
-
-func main() {
-	a := []int{1, 7, 3, 6, 5, 6}
-	fmt.Println(pivotIndex(a))
 }
