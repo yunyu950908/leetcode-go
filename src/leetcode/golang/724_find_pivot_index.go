@@ -1,4 +1,4 @@
-package main
+package golang
 
 func pivotIndex(nums []int) int {
 	sum, leftSum := 0, 0

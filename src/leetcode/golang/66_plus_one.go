@@ -1,4 +1,4 @@
-package main
+package golang
 
 func plusOne(digits []int) []int {
 	carry := 1
