@@ -15,7 +15,7 @@ func swapPairs(head *ListNode) *ListNode {
 	for prev.Next != nil && prev.Next.Next != nil {
 		curr = prev.Next
 		next = curr.Next
-		prev.Next, next.Next, curr.Next = next, curr, next.Next
+		prev.Next, curr.Next, next.Next = next, next.Next, curr
 		prev = curr
 	}
 	return guard.Next
